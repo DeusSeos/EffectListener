@@ -1,0 +1,5 @@
+name: EffectListener
+version: ${project.version}
+main: sauce.seos.gg.effectlistener.EffectListener
+api-version: 1.13
+authors: [Seoss]

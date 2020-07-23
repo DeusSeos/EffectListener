@@ -1,21 +1,17 @@
 package sauce.seos.gg.effectlistener;
+import java.util.Hashtable;
 
-import org.bukkit.Bukkit;
-import org.bukkit.potion.Potion;
-import org.bukkit.potion.PotionEffectType;
 
-import java.util.HashMap;
 
 public class EffectMap {
 
-    private HashMap<String, PotionEffectType> effectList = new HashMap<String, PotionEffectType>();
+    Hashtable<String, String> effectDict = new Hashtable<>();
 
-    public HashMap<String, PotionEffectType> getEffectList() {
-        return effectList;
+    public boolean addPair(String key,String value){
+        return false;
     }
 
-    public void setupEffectList() {
-        EffectListener.getConfig()
 
-    }
+
+
 }
